@@ -122,7 +122,7 @@ export const Events = ({ events }: { events: wixEvents.V3Event[] }) => {
               className="btn-main my-2 sm:my-10 rounded-2xl w-full text-center sm:w-auto h-fit min-w-fit"
               href={`/events/${event.slug}`}
             >
-              Buy Tickets
+              All Info
             </a>
           </div>
         ))}

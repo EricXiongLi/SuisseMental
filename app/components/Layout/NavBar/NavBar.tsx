@@ -5,16 +5,9 @@ import type { LinkProps } from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
-const navbarMainItems = [
-  { ref: '/', label: 'HOME' },
-  { ref: '/shop', label: 'MERCH' },
-];
+const navbarMainItems = [{ ref: '/', label: 'HOME' }];
 
-const navbarSecondrayItems = [
-  { ref: '/terms', label: 'TERMS & CONDITIONS' },
-  { ref: '/shipping', label: 'SHIPPING & RETURNS' },
-  { ref: '/faq', label: 'FAQ' },
-];
+const navbarSecondrayItems = [];
 
 const StyledNavLink = ({
   isActive,
@@ -67,20 +60,21 @@ export function NavBar() {
       <nav
         className={`${
           isMenuShown ? 'w-full opacity-100' : 'w-0 opacity-0'
-        } transition-all duration-500 ease-in-out block overflow-hidden fixed animate-sideways-once h-screen bg-black text-white pt-8 z-40 top-0 right-0`}
+        } transition-all duration-500 ease-in-out block overflow-hidden fixed animate-sideways-once h-screen
+    bg-purple-200 text-white pt-8 z-40 top-0 right-0`}
       >
         <div className="relative flex flex-col-reverse sm:flex-col gap-2">
           <div className="h-[180px] w-[140px] overflow-hidden sm:h-auto sm:w-auto mx-auto">
             <Image
               className="mx-auto z-10"
-              src="https://static.wixstatic.com/media/503ea4_cb7ebc8a601749f098164d92ec7aa441~mv2.jpg/v1/fill/w_480,h_622,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/503ea4_cb7ebc8a601749f098164d92ec7aa441~mv2.jpg"
+              src="https://images.unsplash.com/photo-1604881991720-f91add269bed?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1lbnRhbCUyMGhlYWx0aHxlbnwwfHwwfHx8MA%3D%3D"
               width={240}
               height={0}
-              alt="Talisa Kidd"
+              alt="MindEvent"
             />
           </div>
           <h2 className="text-center text-2xl sm:text-[120px] z-20 sm:mt-[-150px]">
-            TALI$A KIDD
+            MindEvent
           </h2>
         </div>
         <ul className="flex flex-col items-center gap-4 justify-end mt-4 sm:mt-[140px]">

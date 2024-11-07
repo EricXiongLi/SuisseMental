@@ -6,14 +6,13 @@ export function Shop({ items }: { items: products.Product[] }) {
   return (
     <div className="mx-auto">
       <div
-        className="bg-black text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
+        className="bg-purple-400 text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
         data-testid={testIds.SHOP_PAGE.HEADER}
       >
-        <h1 className="uppercase text-3xl sm:text-6xl">Merch</h1>
+        <h1 className="uppercase text-3xl sm:text-6xl">Mind Event</h1>
         <p className="text-sm sm:text-base mx-auto px-8 sm:max-w-[50%] my-10">
-          I’m a paragraph. I’m a great space to write about what makes the
-          products special and explain how customers can benefit from these
-          items.
+          A centralized mental health events collection platform for students to
+          access mental health and wellbeing events.
         </p>
       </div>
       {items.length ? (
