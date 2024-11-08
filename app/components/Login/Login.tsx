@@ -19,10 +19,7 @@ const LoginComp = () => {
 
     openModalLogin();
   };
-  return (
-    <div>
-    </div>
-  );
+  return <div></div>;
 };
 
 export const Login = dynamic(() => Promise.resolve(LoginComp), {

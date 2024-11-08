@@ -9,17 +9,13 @@ const Footer = () => (
   >
     <ScrollIntoView hashName="#contact" />
     <div className="bg-purple-400 text-white text-center py-6">
-      <h2 className="text-2xl sm:text-4xl font-bold">
-        Mind Event
-      </h2>
+      <h2 className="text-2xl sm:text-4xl font-bold">Mind Event</h2>
       <p className="mt-10 text-xs sm:text-base">
         info@mindevent.com | PHONE: 123-456-7890
       </p>
     </div>
     <div className="mx-auto flex flex-col-reverse items-center sm:flex-row gap-1 sm:gap-16 pt-3 sm:pt-11 pb-4 sm:pb-20 px-6 sm:px-14 text-12 sm:text-xs">
-      <p className="font-default mb-10 flex-1">
-        © 2024 BY mind event.
-      </p>
+      <p className="font-default mb-10 flex-1">© 2024 BY mind event.</p>
     </div>
   </footer>
 );
