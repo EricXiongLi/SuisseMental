@@ -63,5 +63,5 @@ export const CartView = ({ layout = 'mini' }: { layout?: 'full' | 'mini' }) => {
   ]);
 
   const isMini = layout === 'mini';
-  return;
+  return <div></div>;
 };
