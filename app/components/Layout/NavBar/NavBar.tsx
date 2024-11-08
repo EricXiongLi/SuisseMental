@@ -7,8 +7,6 @@ import Image from 'next/image';
 
 const navbarMainItems = [{ ref: '/', label: 'HOME' }];
 
-const navbarSecondrayItems = [];
-
 const StyledNavLink = ({
   isActive,
   className,
@@ -145,21 +143,6 @@ export function NavBar() {
               />
             </svg>
           </div>
-          {navbarSecondrayItems.map(({ ref, label }) => (
-            <li key={ref} className="relative">
-              <StyledNavLink
-                className="text-xs"
-                isActive={ref === linkRef}
-                href={ref}
-                onClick={() => {
-                  setLinkRef(ref);
-                  setIsMenuShown(false);
-                }}
-              >
-                {label}
-              </StyledNavLink>
-            </li>
-          ))}
         </ul>
       </nav>
     </>
