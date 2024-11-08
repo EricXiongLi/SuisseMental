@@ -1,8 +1,6 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://manage.wix.com/headless-funnel-nextjs/netlify?repository=https://github.com/wix/wix-commerce-ticketing-nextjs-template) &emsp; [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone/hidden?integration-ids=oac_LZ0wUqGylqzgr8bE8a1R7JTE&skippable-integrations=1&build-command=yarn+build&deploymentIds=dpl_9Gtegfcme9RUmTXFvVGrP8BwDGUV&s=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-commerce-ticketing-nextjs-template&demo-image=https%3A%2F%2Fgithub.com%2Fwix%2Fwix-commerce-ticketing-nextjs-template%2Fraw%2Fmain%2Fdocs%2Fmedia%2Ftemplate-showcase.gif&external-id=%7B%22repo%22%3A%22https%3A%2F%2Fgithub.com%2Fwix%2Fwix-commerce-ticketing-nextjs-template%22%2C%22referralInfo%22%3A%22repo-readme_music%22%7D&demo-title=Ticketing+%26+Merch+Starter&demo-description=Artist+Music+Tour+starter+template+with+Wix%E2%80%99s+Event+ticketing+and+Ecommerce+business+solutions.&demo-url=https%3A%2F%2Fvercel.commerce-ticketing-demo.wix.dev&repository-name=wix-commerce-ticketing-nextjs-template&referralInfo=repo-readme_music)
-# A Wix Events and Wix eCommerce Next.js Music Tour Template
-
-![Template showcase](./media/template-showcase.gif)
+# Mind Event
 
 This template is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It uses [Wix Headless](https://dev.wix.com/api/sdk/about-wix-headless/overview) to leverage the Wix Events and Wix Stores business solutions for managing event ticketing and a store.
 
