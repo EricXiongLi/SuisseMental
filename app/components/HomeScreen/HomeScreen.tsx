@@ -26,7 +26,7 @@ export function HomeScreen({
                 <br /> Event
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
-                Connecting Minds, Inspiring Well-being
+                Connect Minds, Inspire Well-being
               </h3>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start"></div>
             </div>
