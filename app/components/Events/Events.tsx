@@ -16,7 +16,7 @@ export const Events = ({ events }: { events: wixEvents.V3Event[] }) => {
       data-testid={testIds.TICKET_LIST.CONTAINER}
     >
       <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left">
-        SHOWS
+        EVENTS
       </h1>
       <div className="py-10">
         {events!.map((event) => (
