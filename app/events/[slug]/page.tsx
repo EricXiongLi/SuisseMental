@@ -64,8 +64,6 @@ export default async function EventPage({ params }: any) {
             <div className="basis-1/2">
               <WixMediaImage
                 media={event.mainImage}
-                width={530}
-                height={530}
                 className="w-full h-full object-cover"
               />
             </div>
