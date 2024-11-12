@@ -66,7 +66,7 @@ export default async function EventPage({ params }: any) {
                 media={event.mainImage}
                 width={530}
                 height={530}
-                className="max-h-[320px] sm:h-[530px] sm:max-h-[530px]"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="basis-1/2 text-left px-5 pb-4">
